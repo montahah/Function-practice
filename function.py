@@ -63,3 +63,8 @@ def test():
     y = 50
     print(y)
     print(x)
+test()
+print(x)
+
+
+
