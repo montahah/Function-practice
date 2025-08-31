@@ -66,5 +66,15 @@ def test():
 test()
 print(x)
 
+square = lambda x: x *x
+print(square(5))
 
+nums = [1,2,3]
+doubled = list(map(lambda n: n*2, nums))
+print(doubled)
 
+def greet(name):
+    return f"Hello {name}"
+def process(func, value):
+    print(func(value))
+process(greet, "Montaha")
